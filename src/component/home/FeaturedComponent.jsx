@@ -4,7 +4,7 @@ import { FaWindows } from "react-icons/fa";
 const FeaturedComponent = () => {
   return (
     <div className="mt-8">
-      <h1 className="py-2 text-white">Featured & Recommended</h1>
+      <h1 className="py-2 text-white ">Featured & Recommended</h1>
       <div className="grid grid-cols-5">
         <div className="col-span-3 bg-white h-72">
           <img
@@ -15,8 +15,10 @@ const FeaturedComponent = () => {
         </div>
         <div className="col-span-2 bg-black">
           <div className="flex-row">
-            <h2 className="px-2 text-white">Farming Simulator</h2>
-            <div className="grid grid-cols-2 gap-2 p-3">
+            <h2 className="px-2 mt-1 text-xl font-bold text-white">
+              Farming Simulator
+            </h2>
+            <div className="grid grid-cols-2 gap-2 p-2">
               <div className="h-20 ">
                 <img
                   src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2300320/ss_02c19dc812ad26eaa0315d028b962ac0380b826b.600x338.jpg?t=1736333063"
