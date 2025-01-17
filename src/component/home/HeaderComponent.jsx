@@ -8,20 +8,33 @@ const HeaderComponent = () => {
           Wishlist (95)
         </button>
       </div>
-      <div className="py-1 bg-blue-800 ps-2">
-        <ul className="flex items-center gap-4 text-white">
-          <li>Your Store</li>
-          <li>New & Noteworthy</li>
-          <li>Categorie</li>
-          <li>Point Shop</li>
-          <li>News</li>
-          <li>Labs</li>
+      <div className="bg-blue-800">
+        <ul className="flex items-center text-white">
+          <a href="">
+            <li className="px-4 py-2 hover:bg-blue-600">Your Store</li>
+          </a>
+          <a href="">
+            <li className="px-4 py-2 hover:bg-blue-600">New & Noteworthy</li>
+          </a>
+          <a href="">
+            <li className="px-4 py-2 hover:bg-blue-600">Categorie</li>
+          </a>
+          <a href="">
+            <li className="px-4 py-2 hover:bg-blue-600">Point Shop</li>
+          </a>
+          <a href="">
+            <li className="px-4 py-2 hover:bg-blue-600">News</li>
+          </a>
+          <a href="">
+            <li className="px-4 py-2 hover:bg-blue-600">Labs</li>
+          </a>
+
           <li className="ml-auto">
             <div className="relative flex items-center">
               <input
                 type="text"
                 placeholder="Search"
-                className="px-2 bg-blue-500 w-44"
+                className="w-48 h-8 px-2 bg-blue-500"
               />
               <button className="absolute right-0 p-1 transform -translate-y-1/2 bg-blue-400 top-1/2">
                 <FaSearch />
